@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f4f7;
+  color: #222;
+}
+
+.container {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d8dce2;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 4px;
+  font-size: 14px;
+}
+
+input {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #b8bec7;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 9px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  background: #2f5fd0;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #9aa7c7;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.password {
+  font-size: 34px;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+.expired,
+.error {
+  color: #b3261e;
+}
+
+.success {
+  color: #1b7a36;
+}
+
+.message {
+  margin-top: 12px;
+}
