@@ -3,6 +3,8 @@
 Generates a one-time password from a User Id and a DateTime. Each password is valid
 for a 30 second window. The UI shows the password, the seconds left, and lets you validate it.
 
+<img width="1913" height="948" alt="image" src="https://github.com/user-attachments/assets/ae51b1e2-52af-4ead-917b-baf946bb7f1c" />
+
 ## Structure
 
 ```
@@ -44,6 +46,7 @@ POST /api/otp/validate `{ "userId": "john", "password": "123456" }`
 Requires Node 18+.
 
 ```
+
 cd frontend/otp-ui
 npm install
 npm run dev
